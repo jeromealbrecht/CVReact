@@ -3,6 +3,8 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import React, { useEffect } from 'react';
 import { useMediaQuery } from 'react-responsive';
 import AccueilDesktop from './pages/AccueilDesktop';
+import AccueilMobile from './mobile/AccueilMobile';
+import TabletDesk from './mobile/TabletDesktop';
 
 const Desktop = ({ children }) => {
 	useEffect(() => {
@@ -36,8 +38,8 @@ const App = () => (
 		<Desktop>
 			<AccueilDesktop /> 		{/* call Accueil Desktop  */}
 		</Desktop>
-		<Tablet>Tablet</Tablet>
-		<Mobile>Mobile</Mobile>
+		<Tablet><TabletDesk/></Tablet>
+		<Mobile><AccueilMobile/></Mobile>
 	</div>
 );
 

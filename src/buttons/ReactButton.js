@@ -1,13 +1,11 @@
 import React, { useState } from 'react';
 import image from '../images/developpeur_Amiens.jpg';
-import MenuReact from '../menulogos/menuReactJS';
 import { useNavigate } from 'react-router-dom';
 
 const ReactButton = () => {
 	const navigate = useNavigate();
 
 	const [ hover, setHover ] = useState(false);
-	console.log(hover);
 
 	function renderRedirect() {
 		navigate('/Web');

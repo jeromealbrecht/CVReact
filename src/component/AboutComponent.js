@@ -1,11 +1,10 @@
 import React from 'react';
-import { Image } from 'react-bootstrap';
 import Photodev from '../images/amiens_dev.jpeg';
 import { Card } from 'react-bootstrap';
 
 const AboutComponent = () => {
 	return (
-		<div class="col-12 m-0 p-0 mt-5 row">
+		<div className="col-12 m-0 p-0 mt-5 row">
 			<div className="div d-flex boxShadow" style={{ width: 1200, height: 500, marginLeft: 175 }}>
 				<Card.Img
 					src={Photodev}

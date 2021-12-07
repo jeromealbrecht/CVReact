@@ -4,10 +4,9 @@ import Dashboard from '../images/Dashboardm.png';
 import Mobile from '../images/Dashboardmobile.png';
 
 const AccueilComponent = () => {
-
-
-	function Linkedin(){
-		window.location.href = 'https://www.linkedin.com/in/devwebapi/'; 
+	//Redirect to
+	function Linkedin() {
+		window.location.href = 'https://www.linkedin.com/in/devwebapi/';
 	}
 
 	return (
@@ -81,7 +80,7 @@ const AccueilComponent = () => {
 						backgroundRepeat: 'no-repeat',
 						objectFit: 'cover',
 						position: 'absolute',
-						marginTop: 128
+						marginTop: 128,
 					}}
 				/>
 

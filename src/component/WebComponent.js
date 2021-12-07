@@ -1,7 +1,5 @@
 import React from 'react';
 import { Image } from 'react-bootstrap';
-import Photodev from '../images/amiens_dev.jpeg';
-import Mobiles from '../images/Appli_React_Native.png';
 import Cds from '../images/couleurdeson.jpg';
 import Dash from '../images/Dash_Amiens_Jacobins.jpg';
 
@@ -17,49 +15,59 @@ const WebComponent = () => {
 							opacity: 5,
 							maxWidth: '100%',
 							maxHeight: '100%',
-				
+
 							objectFit: 'cover'
 						}}
 					/>
 				</div>
 				<div className="col-6 CardColor pl-0">
-					<h2 className="Dcolor mb-4 text-right mt-5" style={{ paddingLeft: 180 }}>
-						#1<span className="text-white text-right p-3">Dashboard Web</span>
-					</h2>
-					<p className="text-white" style={{ fontSize: 20}}>
-						Création d'un dashboard pour le restaurant l'Adresse, à Amiens.
-					</p>
-
-					<p className="text-white" style={{ fontSize: 15 }}>
-						Réalisé avec le FrameWork React JS, expérience professionnelle en Freelance. <br/><br/>
-					</p>
-                    <p className="text-white mb-1" style={{ fontSize: 15 }}>
-						création d'un CRUD complet, avec Firebase
-					</p>
-					<h3 className="Dcolor mt-5 text-center">
-						<span className="text-white">React-Native/Firebase</span>
-					</h3>
+					<div class="col-12">
+						<h2 className="Dcolor mb-4 text-right mt-5" style={{ paddingLeft: 180 }}>
+							#1<span className="text-white text-right p-3">Dashboard Web</span>
+						</h2>
+						<p className="text-white m-0" style={{ fontSize: 18, float: 'right' }}>
+							Création d'un dashboard pour le restaurant
+						</p>
+						<p className="text-white" style={{ fontSize: 18, float: 'right' }}>
+							l'Adresse, à Amiens.
+						</p>
+					</div>
+					<div class="col-12">
+						<p className="text-white m-0" style={{ fontSize: 18, float: 'right' }}>
+							Authentification par mail et mot de passe,
+						</p>
+						<p className="text-white m-0 p-0" style={{ fontSize: 18, float: 'right' }}>
+							enregistrement d'un utilisateur et <br/> création des menus via l'interface
+						</p>
+						<p className="text-white" style={{ fontSize: 17, float: 'right', marginTop: 110 }}>
+							
+							Réalisation d'un CRUD. <br/>
+							React-JS/CSS/React-dom-router/Firebase
+						</p>
+						
+						
+					</div>
 				</div>
 			</div>
 			<div className="col-8 mt-4 boxShadow row">
 				<div className="col-6 CardColor pl-0">
-					<h2 className="Dcolor mb-4 text-right mt-5" style={{ paddingLeft: 175 }}>
-						#2<span className="text-white text-right p-3">Couleur de son</span>
+					<h2 className="Dcolor mb-4 text-right mt-5" style={{ paddingLeft: 150 }}>
+						#2<span className="text-white text-right p-3">Couleur de son</span>.fr
 					</h2>
-					<p className="text-white" style={{ fontSize: 20, paddingLeft: 240 }}>
+					<p className="text-white" style={{ fontSize: 20, paddingLeft: 235 }}>
 						Mon premier site Web
 					</p>
-					<p className="text-white mb-2 p-0" style={{ fontSize: 15, float: 'right' }}>
+					<p className="text-white mb-2 p-0" style={{ fontSize: 18, float: 'right' }}>
 						Création d'un site pour un studio d'enregistrement,
 					</p>
-					<p className="text-white mb-2 p-0" style={{ fontSize: 15, float: 'right' }}>
+					<p className="text-white mb-2 p-0" style={{ fontSize: 18, float: 'right' }}>
 						permettant d'uploader un fichier audio et de le placer
 					</p>
-					<p className="text-white mb-5 p-0" style={{ fontSize: 15, float: 'right' }}>
+					<p className="text-white mb-5 p-0" style={{ fontSize: 18, float: 'right' }}>
 						dans le lecteur audio intégré à la page d'accueil.
 					</p>
 
-					<h3 style={{ fontSize: 19, paddingLeft: 150, color: 'white' }}>HTML/CSS/Bootstrap/PHP/MySQL</h3>
+					<h3 style={{ fontSize: 19, paddingLeft: 150, color: 'white' }}>HTML/CSS/JS/Bootstrap/PHP/MySQL</h3>
 				</div>
 				<div className="col-6 mt-3 p-3 d-flex justify-content-center">
 					<Image

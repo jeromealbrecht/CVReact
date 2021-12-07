@@ -1,32 +1,32 @@
 import React from 'react';
-import '../button.css';
-import LogoComponent from '../logo/LogoComponent';
+import '../App.css';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import BackComponent from '../logo/BackComponent';
 import ReactButton from '../buttons/ReactButton';
 import AppButtons from '../buttons/AppButtons';
 import PortFButton from '../buttons/PortFolioButton';
 import SkillsButton from '../buttons/Skillsbutton';
 import ContactButton from '../buttons/ContactButtons';
-import AccueilComponent from '../component/AccueilComponent';
+import TrainingComp from '../component/TrainingComp';
 
-const AccueilDesktop = () => {
-	
+const Formations = () => {
 	return (
-		<div className="container-fluid bg-dark" style={{ height: '100vh' }}>
+		<div className="container-fluid bg-dark" style={{ maxWidth: '100%' }}>
 			<div className="row">
 				<div className="col-md-12 m-0 p-0 mt-5">
 					<header className="d-flex justify-content-center">
-						<LogoComponent />
+						<BackComponent />
 						<ReactButton />
 						<AppButtons />
 						<PortFButton />
 						<SkillsButton />
 						<ContactButton />
 					</header>
-					<AccueilComponent/> {/* page d'accueil */}
+					<TrainingComp /> {/* page Formations */}
 				</div>
 			</div>
 		</div>
 	);
 };
 
-export default AccueilDesktop;
+export default Formations;

@@ -1,6 +1,5 @@
 import React from 'react';
 import { Image } from 'react-bootstrap';
-import Photodev from '../images/amiens_dev.jpeg';
 import Mobiles from '../images/Appli_React_Native.png';
 import Todo from '../images/Todolist.jpg';
 
@@ -15,10 +14,10 @@ const AboutComponent = () => {
 					<p className="text-white" style={{ fontSize: 20, float: 'right' }}>
 						Consulter les menus du restaurant l'Adresse
 					</p>
-					<p className="text-white mb-2 p-0" style={{ fontSize: 15, float: 'right' }}>
-					Utilisation de firebase pour récupérer les données sur les menus
+					<p className="text-white mb-2 p-0" style={{ fontSize: 17, float: 'right' }}>
+					Utilisation de firebase pour récupérer les menus
 					</p>
-					<p className="text-white mb-5 p-0" style={{ fontSize: 15, float: 'right' }}>
+					<p className="text-white mb-5 p-0" style={{ fontSize: 17, float: 'right' }}>
 						Consultation des menus avec catégories et sous-catégories
 					</p>
 					<h3 className="Dcolor mb-4 text-right marge text-center" style={{ marginTop: 15 }}>
@@ -66,16 +65,16 @@ const AboutComponent = () => {
 						Création, suppression de listes
 					</p>
 					
-					<p className="text-white m-0 p-0" style={{ fontSize: 15, float: 'right' }}>
+					<p className="text-white m-0 p-0" style={{ fontSize: 17, float: 'right' }}>
 						Consultation des menus avec catégories et sous-catégories
 					</p>
-					<p className="text-white m-0 p-0" style={{ fontSize: 15, float: 'right' }}>
+					<p className="text-white m-0 p-0" style={{ fontSize: 17, float: 'right' }}>
 						première utilisation des Hooks d'états
 					</p>
-					<p className="text-white m-0 p-0" style={{ fontSize: 15, float: 'right' }}>
+					<p className="text-white m-0 p-0" style={{ fontSize: 17, float: 'right' }}>
 						Utilisation d'une List.Item avec React-Native-Paper
 					</p>
-					<p className="text-white m-0 p-0" style={{ fontSize: 15, float: 'right' }}>
+					<p className="text-white m-0 p-0" style={{ fontSize: 17, float: 'right' }}>
 						utilisation du .map() pour la List.Item
 					</p>
 					<h3 className="Dcolor mb-4 text-right marge text-center margeHigh">

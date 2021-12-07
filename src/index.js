@@ -7,6 +7,8 @@ import reportWebVitals from './reportWebVitals';
 import About from '../src/pages/AboutDesktop';
 import Applications from '../src/pages/Applications';
 import Web from '../src/pages/Web';
+import Print from '../src/pages/Print';
+import Formations from '../src/pages/FormationsDesktop';
 
 ReactDOM.render(
 	<React.StrictMode>
@@ -16,6 +18,8 @@ ReactDOM.render(
 				<Route exact path="/About" element={<About />} />
 				<Route exact path="/Applications" element={<Applications />} />
 				<Route exact path="/Web" element={<Web />} />
+				<Route exact path="/Print" element={<Print />} />
+				<Route exact path="/Formations" element={<Formations />} />
 			</Routes>
 		</BrowserRouter>
 	</React.StrictMode>,
