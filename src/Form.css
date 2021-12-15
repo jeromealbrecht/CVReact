@@ -1,0 +1,124 @@
+form {
+    max-width: 400px;
+    padding: 30px;
+    margin: auto;
+}
+
+.textarea {
+    background-color: #2E334D;
+    color: #666666;
+    padding: 1em;
+    border-radius: 10px;
+    border: 2px solid transparent;
+    outline: none;
+    font-family: "Heebo", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.4;
+    width: 600px;
+    height: 100px;
+    transition: all 0.2s;
+}
+
+.textarea::placeholder {
+    color: #FFFFFF;
+}
+
+.textarea:hover {
+    cursor: pointer;
+    background-color: #212529;
+}
+
+.textarea:focus {
+    cursor: text;
+    color: #ffffff;
+    background-color: #212529;
+    border-color: #2E334D;
+}
+
+.text-input {
+    position: relative;
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+    padding: 16px 14px 8px;
+    cursor: text;
+}
+
+.text-input .input-icon {
+    font-size: 20px;
+    color: white;
+}
+
+.text-input .background {
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    display: block;
+    border-bottom: 1px solid white;
+    background: transparent;
+    transition: all 0.2s ease-in-out;
+}
+
+.text-input .placeholder {
+    position: absolute;
+    left: 50px;
+    bottom: 15px;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 19px;
+    display: block;
+    transition: all 0.5s ease-in-out;
+    z-index: 1;
+    cursor: text;
+    background: transparent;
+    opacity: 1;
+}
+
+.text-input input {
+    border-radius: 6px;
+    padding: 8px 15px;
+    width: 100%;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    transition: all 0.01s ease-in-out;
+    background: transparent;
+    border: none;
+    color: #FFFFFF;
+    z-index: 1;
+}
+
+.text-input input:focus {
+    outline: none;
+}
+
+.text-input input::placeholder {
+    color: transparent;
+}
+
+.text-input input:focus+.placeholder,
+.text-input input:not(:placeholder-shown)+.placeholder {
+    bottom: 45px;
+    font-size: 13px;
+    line-height: 16px;
+    color: #FFFFFF
+}
+
+.text-input input:focus+.placeholder+.background,
+.text-input input:not(:placeholder-shown)+.placeholder+.background {
+    background: #FFFFFF29;
+    border-radius: 8px;
+}
+
+.row {
+
+    margin-left: inherit !important;
+}

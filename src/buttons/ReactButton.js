@@ -6,15 +6,16 @@ const ReactButton = () => {
 	const navigate = useNavigate();
 
 	const [ hover, setHover ] = useState(false);
-
-	function renderRedirect() {
+console.log(hover);
+	function renderRedirect(event) {
+		event.preventDefault()
 		navigate('/Web');
 }
 
 	return (
 		<div
-			className="d-flex text-center"
-			style={{ height: 92, width: 214.25, alignItems: 'center' }}
+			className="d-flex text-center bg-danger"
+			style={{ height: 92, width: 214.25, alignItems: 'center', justifyContent: 'center' }}
 			onMouseEnter={() => {
 				setHover(true);
 			}}
@@ -30,10 +31,10 @@ const ReactButton = () => {
 				style={{ height: 92, width: 214.25, position: 'absolute' }}
 			/>
 			<p
-				className="Raleway p-3 text-white d-flex text-center shadow"
-				style={{ fontSize: 20, position: 'absolute', marginLeft: 45, marginTop: 10, cursor: 'pointer' }}
+				className="Raleway p-3 text-white d-flex text-center"
+				style={{ fontSize: 20, position: 'absolute', cursor: 'pointer', marginTop:8 }}
 			>
-				Sites Web
+				Web
 			</p>
 		</div>
 	);

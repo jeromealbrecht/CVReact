@@ -9,6 +9,7 @@ import Applications from '../src/pages/Applications';
 import Web from '../src/pages/Web';
 import Print from '../src/pages/Print';
 import Formations from '../src/pages/FormationsDesktop';
+import Contact from '../src/pages/Contact';
 
 ReactDOM.render(
 	<React.StrictMode>
@@ -20,6 +21,7 @@ ReactDOM.render(
 				<Route exact path="/Web" element={<Web />} />
 				<Route exact path="/Print" element={<Print />} />
 				<Route exact path="/Formations" element={<Formations />} />
+				<Route exact path="/Contact" element={<Contact />} />
 			</Routes>
 		</BrowserRouter>
 	</React.StrictMode>,

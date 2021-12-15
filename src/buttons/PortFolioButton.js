@@ -7,14 +7,15 @@ const PortFbutton = () => {
 	const navigate = useNavigate();
 
 	const [ printhover, setPrinthover ] = useState(false);
-
-	function renderRedirect() {
+console.log(printhover);
+	function renderRedirect(event) {
+		event.preventDefault()
 		navigate('/Print');
 	}
 	return (
 		<div
 			className="d-flex text-center justify-content-center"
-			style={{ height: 92, width: 214.25, alignItems: 'center' }}
+			style={{ height: 92, width: 214.25, alignItems: 'center', justifyContent: 'center' }}
 			onMouseEnter={() => {
 				setPrinthover(true);
 			}}
@@ -38,7 +39,7 @@ const PortFbutton = () => {
 			/>
 			<p
 				className="Raleway p-2 text-white d-flex text-center"
-				style={{ fontSize: 20, position: 'absolute', cursor: 'pointer', marginTop: 9 }}
+				style={{ fontSize: 20, position: 'absolute', cursor: 'pointer', marginTop: 8 }}
 			>
 				Print
 			</p>
