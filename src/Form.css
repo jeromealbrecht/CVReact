@@ -16,7 +16,7 @@ form {
     font-size: 16px;
     line-height: 1.4;
     width: 600px;
-    height: 100px;
+    height: 400px;
     transition: all 0.2s;
 }
 
@@ -47,7 +47,7 @@ form {
 
 .text-input .input-icon {
     font-size: 20px;
-    color: white;
+    color: #212529;
 }
 
 .text-input .background {

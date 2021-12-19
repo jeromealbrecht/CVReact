@@ -42,6 +42,7 @@ const SkillsButton = () => {
 				className="Raleway p-2 text-white d-flex text-center"
 				style={{ fontSize: 20, position: 'absolute', marginTop: 8, cursor: 'pointer' }}
 			>
+				Expériences <br/>
 				Formations
 			</p>
 		</div>
